@@ -1,0 +1,86 @@
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web:400,300);
+
+/*GLOBAL STYLES*/
+
+h1, h2, h3, h4, h5, h6, p{
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  color: #1B5E20;
+}
+
+.container-fluid{
+  padding: 0px;
+}
+
+.btn{
+  color: #1B5E20;
+  background-color: #fff;
+  border: 1px solid #1B5E20;
+}
+
+.btn:hover{
+  color: #fff;
+  background-color: #1B5E20;
+  border: 1px solid #1B5E20;
+}
+
+/*FRONTPAGE*/
+
+.title{
+  margin: 50px 0px;
+}
+
+.projects{
+  /*height: 500px;
+  background-color: #eee;
+  border-top: 1px solid #1B5E20;
+  border-bottom: 1px solid #1B5E20;*/
+}
+
+.projects .col-md-8, .projects .col-md-4, .projects .col-md-5, .projects .col-md-7{
+  border: 1px solid #1B5E20;
+  height: 300px;
+  /*background-color: #eee;*/
+}
+
+.flavor-text{
+  margin: 200px 0px;
+}
+
+.blog-container{
+  border-top: 1px solid #1B5E20;
+  border-bottom: 1px solid #1B5E20;
+}
+
+.blog{
+  max-width: 1170px;
+  margin: 200px 0px;
+}
+
+.contact{
+  margin: 200px 0px;
+}
+
+/*PROJECT PAGE*/
+.title-image{
+  height: 400px;
+  width: 100%;
+  background-color: #eee;
+  border-top: 1px solid #1B5E20;
+}
+
+.main-point{
+  border-top: 1px solid #1B5E20;
+  border-bottom: 1px solid #1B5E20;
+  margin-bottom: 200px;
+}
+
+.summary{
+  margin-bottom: 200px;
+}
+
+.problem, .solution{
+  margin: 200px auto;
+  width: 85%;
+}
