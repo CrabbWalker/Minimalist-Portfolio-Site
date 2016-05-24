@@ -10,7 +10,7 @@ h1, h2, h3, h4, h5, h6, p{
 }
 
 .container-fluid{
-  padding: 0px;
+  /*padding: 0px;*/
 }
 
 .btn{
@@ -65,7 +65,7 @@ h1, h2, h3, h4, h5, h6, p{
 /*PROJECT PAGE*/
 .title-image{
   height: 400px;
-  width: 100%;
+  /*width: 100%;*/
   background-color: #eee;
   border-top: 1px solid #1B5E20;
 }
