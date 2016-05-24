@@ -41,7 +41,40 @@ h1, h2, h3, h4, h5, h6, p{
 .projects .col-md-8, .projects .col-md-4, .projects .col-md-5, .projects .col-md-7{
   border: 1px solid #1B5E20;
   height: 300px;
+  padding: 0px;
   /*background-color: #eee;*/
+}
+
+.img-1{
+  background-image: url(img/bird1.jpg);
+}
+
+.img-2{
+  background-image: url(img/bird2.jpg);
+}
+
+.img-3{
+  background-image: url(img/bird3.jpg);
+}
+
+.img-4{
+  background-image: url(img/bird4.jpeg);
+}
+
+.img-1, .img-2, .img-3, .img-4{
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.img-1:hover, .img-2:hover, .img-3:hover, .img-4:hover{
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
 }
 
 .flavor-text{
@@ -54,8 +87,21 @@ h1, h2, h3, h4, h5, h6, p{
 }
 
 .blog{
-  max-width: 1170px;
-  margin: 200px 0px;
+  padding: 150px 0px;
+}
+
+.blog-img{
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image:linear-gradient(to right, rgba(255,0,0,0), rgba(255,255,255,1) 60%), url(img/bird4.jpeg);
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  height: 100%;
+}
+
+.blog-text{
+  margin-right: 100px;
 }
 
 .contact{
