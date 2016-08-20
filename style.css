@@ -12,7 +12,9 @@ h1, h2, h3, h4, h5, h6, p{
 .container-fluid{
   /*padding: 0px;*/
 }
-
+.btn-space{
+  padding-right: 10px;
+}
 .btn{
   color: #1B5E20;
   background-color: #fff;
