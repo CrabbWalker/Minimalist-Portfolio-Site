@@ -63,6 +63,22 @@ h1, h2, h3, h4, h5, h6, p{
   background-image: url(img/nagumi1.jpg);
 }
 
+.img-5{
+  background-image: url(img/CageLana.jpg);
+}
+
+.img-6{
+  background-image: url(img/Ocean.jpg);
+}
+
+.img-7{
+  background-image: url(img/TransportTruckFinal.jpg);
+}
+
+.img-8{
+  background-image: url(img/BrayBackpack.jpeg);
+}
+
 .plc-img, .img-1, .img-2, .img-3, .img-4{
   display: inline-block;
   width: 100%;
@@ -106,8 +122,12 @@ h1, h2, h3, h4, h5, h6, p{
   margin: 200px 0px;
 }
 
-.div-pad{
+.div-margin-top{
   margin: 200px 0px 0px 0px;
+}
+
+.div-margin-bottom{
+  margin: 0px 0px 50px 0px;
 }
 
 /*PROJECT PAGE*/
