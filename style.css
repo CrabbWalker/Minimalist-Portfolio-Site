@@ -72,14 +72,22 @@ h1, h2, h3, h4, h5, h6, p{
 }
 
 .img-7{
-  background-image: url(img/TransportTruckFinal.jpg);
+  background-image: url(img/TransportTruckFinal2.jpg);
 }
 
 .img-8{
   background-image: url(img/BrayBackpack.jpeg);
 }
 
-.plc-img, .img-1, .img-2, .img-3, .img-4{
+.img-9{
+  background-image: url(img/NamiEp2Painting1.jpeg);
+}
+
+.img-10{
+  background-image: url(img/BabyChick.jpeg);
+}
+
+.plc-img, .img-1, .img-2, .img-3, .img-4, .img-5, .img-6, .img-7, .img-8, .img-9, .img-10{
   display: inline-block;
   width: 100%;
   height: 100%;
@@ -90,7 +98,7 @@ h1, h2, h3, h4, h5, h6, p{
   filter: grayscale(100%);
 }
 
-.img-1:hover, .img-2:hover, .img-3:hover, .img-4:hover{
+.img-1:hover, .img-2:hover, .img-3:hover, .img-4:hover, .img-5:hover, .img-6:hover, .img-7:hover, .img-8:hover, .img-9:hover, .img-10:hover{
   -webkit-filter: grayscale(0%);
   filter: grayscale(0%);
 }
