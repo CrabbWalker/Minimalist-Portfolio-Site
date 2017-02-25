@@ -171,5 +171,26 @@ h1, h2, h3, h4, h5, h6, p{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
 
+.modal-dialog2{
+  position: relative;
+  background-image: url(img/Ocean.jpg);
+  margin: 20px 20px 20px 20px;
+  width: auto;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.modal-dialog3{
+  position: relative;
+  background-image: url(img/TransportTruckFinal2.jpg);
+  margin: 20px 20px 20px 20px;
+  width: auto;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
