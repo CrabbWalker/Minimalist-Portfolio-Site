@@ -163,34 +163,30 @@ h1, h2, h3, h4, h5, h6, p{
 
 /*Gotta be an easier way to implement all background images through one modal */
 
+.modal-dialog, .modal-dialog2, .modal-dialog3, .modal-dialog4, .modal-dialog5, .modal-dialog6{
+  margin: 20px 20px 20px 20px;
+  width: auto;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .modal-dialog{
-  background-image: url(img/CageLana.jpg);
-  margin: 20px 20px 20px 20px;
-  width: auto;
-  height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-image: url(img/CageLana.jpg)
 }
-
 .modal-dialog2{
-  position: relative;
   background-image: url(img/Ocean.jpg);
-  margin: 20px 20px 20px 20px;
-  width: auto;
-  height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
-
 .modal-dialog3{
-  position: relative;
   background-image: url(img/TransportTruckFinal2.jpg);
-  margin: 20px 20px 20px 20px;
-  width: auto;
-  height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+}
+.modal-dialog4{
+  background-image: url(img/BrayBackpack.jpeg);
+}
+.modal-dialog5{
+  background-image: url(img/NamiEp2Painting1.jpeg);
+}
+.modal-dialog6{
+  background-image: url(img/BabyChick.jpeg)
 }
