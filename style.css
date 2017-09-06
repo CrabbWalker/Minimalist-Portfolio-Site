@@ -143,11 +143,17 @@ h1, h2, h3, h4, h5, h6, p{
   color: #000000
 }
 
+.bg-white{
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
 /*MEDIA QUERY*/
 @media only screen and (max-width : 992px) {
 
   p{
     font-size: 40px;
+    text-align: center;
   }
 
 }
