@@ -2,11 +2,11 @@
 
 /*GLOBAL STYLES*/
 
-h1, h2, h3, h4, h5, h6, p{
+h1, h2, h3, h4, h5, h6, p, .btn{
   font-family: "Titillium Web", sans-serif;
   font-weight: 300;
   font-size: 20px;
-  color: #1B5E20;
+  color: #716f64;
 }
 
 .container-fluid{
@@ -16,15 +16,15 @@ h1, h2, h3, h4, h5, h6, p{
   padding-right: 10px;
 }
 .btn{
-  color: #1B5E20;
+  color: #000000;
   background-color: #fff;
-  border: 1px solid #1B5E20;
+  border: 1px solid #000000;
 }
 
 .btn:hover{
   color: #fff;
-  background-color: #1B5E20;
-  border: 1px solid #1B5E20;
+  background-color: #b7b4a1;
+  border: 1px solid #000000;
 }
 
 /*FRONTPAGE*/
@@ -41,7 +41,7 @@ h1, h2, h3, h4, h5, h6, p{
 }
 
 .projects .col-md-8, .projects .col-md-4, .projects .col-md-5, .projects .col-md-7{
-  border: 1px solid #1B5E20;
+  border: 1px solid #000000;
   height: 300px;
   padding: 0px;
   /*background-color: #eee;*/
@@ -156,6 +156,11 @@ h1, h2, h3, h4, h5, h6, p{
     text-align: center;
   }
 
+  .btn{
+    display: block;
+    font-size: 35px;
+  }
+
 }
 
 /*PROJECT PAGE*/
@@ -189,7 +194,6 @@ h1, h2, h3, h4, h5, h6, p{
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .modal-dialog{
