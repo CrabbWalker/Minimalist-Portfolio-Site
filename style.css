@@ -161,6 +161,10 @@ h1, h2, h3, h4, h5, h6, p, .btn{
     font-size: 35px;
   }
 
+  .close{
+    font-size: 150px;
+  }
+
 }
 
 /*PROJECT PAGE*/
@@ -190,8 +194,8 @@ h1, h2, h3, h4, h5, h6, p, .btn{
 
 .modal-dialog, .modal-dialog2, .modal-dialog3, .modal-dialog4, .modal-dialog5, .modal-dialog6{
   margin: 20px 20px 20px 20px;
-  width: auto;
-  height: 100%;
+  width: 100%;
+  height: 90vh;
   background-position: center;
   background-repeat: no-repeat;
 }
